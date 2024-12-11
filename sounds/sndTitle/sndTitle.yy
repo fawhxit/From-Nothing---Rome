@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndTitle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":256,
+  "compression":2,
+  "conversionMode":0,
+  "duration":221.44739,
+  "name":"sndTitle",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"sndTitle.wav",
+  "type":1,
+  "volume":1.0,
+}

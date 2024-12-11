@@ -1,0 +1,24 @@
+#region Notification
+    
+    ds_list_add(m.notifL,instance_create_layer(0,0,"Meta",oNotify))
+    var n = list_pop(m.notifL)
+    n.parent = id
+    n.str = "Line 1."
+        +"\nLine 2."
+    n.initd = t
+    n.alarm[0] = 1
+    
+#endregion
+
+#region Message
+    
+    ds_list_add(m.notifL,instance_create_layer(0,0,"Meta",oMsg))
+    var n = list_pop(m.msgL)
+    n.parent = id
+    n.str = "Line 1."
+        +"\nLine 2."
+        +"\nLine 3."
+    n.initd = t
+    n.alarm[0] = 1
+    
+#endregion
